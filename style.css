@@ -3,7 +3,7 @@ body {
 
 }
 
-h3 {
+h2 {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   color: #E4F1FE;
@@ -30,6 +30,10 @@ li {
   padding: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   background-color: #ECECEC;
 }
@@ -38,11 +42,16 @@ table td {
   text-align: left;
   background-color: #BFBFBF;
   font-family: 'Raleway', sans-serif;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+
 }
 
 table th {
   font-family: 'Raleway', sans-serif;
   background-color: #ECECEC;
+  color: black;
   text-align: left;
   padding: 10px;
   margin: 10px;
@@ -52,10 +61,34 @@ form p {
   text-align: left;
 }
 
-.banner img{
+table {
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  border-spacing: 0;
+  width: 100%;
+}
+
+tr, td, th {
+  border: 2px solid black;
+}
+
+
+th {
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+
+.hero img{
   float: none;
   width: 100%;
   height: 400px;
+  margin: 10px;
   border-radius: 20px;
 
 }
@@ -63,4 +96,58 @@ form p {
 .restaurants ul li {
   text-align: center;
   background-color: #59ABE3;
+  box-shadow: 3px 3px 3px black;
+}
+
+
+.banner_text {
+  clear: both;
+
+}
+
+#navbar {
+
+  float: right;
+}
+
+#navbar li {
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+
+}
+
+#restaurant-table {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+#contact_us  {
+  text-align: left;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+  background-color: #D2D7D3;
+}
+
+#footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+
+#copyright {
+  float: left;
+}
+
+#social-links {
+  float: right;
+  padding: 5px 15px 5px 15px;
+}
+
+#social-links a {
+  color: white;
+  text-decoration: none;
 }

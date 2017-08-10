@@ -8,71 +8,115 @@
 
   </head>
   <body>
-    <h3>As a traveler to the Seattle area you may want to try some great restaurants</h3>
-    <div class="banner">
+
+    <div id="navbar">
+
+       <ul id="nav-list">
+
+            <li class="nav-link">
+                <a href="/home.html">Home</a>
+            </li>
+
+            <li class="nav-link">
+                <a href="/about.html">About</a>
+            </li>
+
+            <li class="nav-link">
+                <a href="/stuff.html">Stuff</a>
+            </li>
+
+            <li class="nav-link">
+                <a href="/contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="banner_text">
+        <h2>As a traveler to the Seattle area you may want to try some great restaurants</h3>
+    </div>
+
+    <div class="hero">
       <img src="https://images.pexels.com/photos/419235/pexels-photo-419235.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Picture of Pike Place Market"/>
     </div>
+
     <p>Here are some of my favorites:</p>
 
-<div class="restaurants">
-    <ul>
-      <li><img src="http://www.melrosegrill.com/wp-content/uploads/2016/03/MelroseGrill-logo-ltgry.png"  alt="restaurant logo" width="50">
-        <a href="http://www.melrosegrill.com/" target="_blank">Melrose Grill</a></li>
-      <li><img src="http://www.asaderoprime.com/wp-content/uploads/2016/11/LogoMAINSinaloa2kent.png" alt="restaurant logo" width="50">
-        <a href="http://www.asaderoprime.com/carne-asada-seattle/" target="_blank">Asadero Sinaloa</a></li>
-      <li><img src="http://www.paseorestaurants.com/wp-content/uploads/2016/10/PCF-LOGO.png" alt="restaurant logo" width="50">
-        <a href="http://www.paseorestaurants.com/" target="_blank">Paseo's</a></li>
-      <li><img src="https://talaricospizza.com/wp-content/themes/Talaricos2013/images/talaricos_logo.png" alt="restaurant logo" width="50">
-        <a href="https://talaricospizza.com/" target="_blank">Talerico's</a></li>
-      <li><img src="https://ssl.cdn-redfin.com/photo/1/mbpaddedwide/028/genMid.1162028_7_2.jpg" alt="restaurant logo" width="50">
-        <a href="my_kitchen.html" target="_blank">My Kitchen</a></li>
+    <div class="restaurants">
+      <ul>
+        <li><img src="http://www.melrosegrill.com/wp-content/uploads/2016/03/MelroseGrill-logo-ltgry.png"  alt="restaurant logo" width="50">
+          <a href="http://www.melrosegrill.com/" target="_blank">Melrose Grill</a></li>
+        <li><img src="http://www.asaderoprime.com/wp-content/uploads/2016/11/LogoMAINSinaloa2kent.png" alt="restaurant logo" width="50">
+          <a href="http://www.asaderoprime.com/carne-asada-seattle/" target="_blank">Asadero Sinaloa</a></li>
+        <li><img src="http://www.paseorestaurants.com/wp-content/uploads/2016/10/PCF-LOGO.png" alt="restaurant logo" width="50">
+          <a href="http://www.paseorestaurants.com/" target="_blank">Paseo's</a></li>
+        <li><img src="https://talaricospizza.com/wp-content/themes/Talaricos2013/images/talaricos_logo.png" alt="restaurant logo" width="50">
+          <a href="https://talaricospizza.com/" target="_blank">Talerico's</a></li>
+        <li><img src="https://ssl.cdn-redfin.com/photo/1/mbpaddedwide/028/genMid.1162028_7_2.jpg" alt="restaurant logo" width="50">
+          <a href="my_kitchen.html" target="_blank">My Kitchen</a></li>
 
-    </ul>
-</div>
+      </ul>
+    <div class="page-row" id="restaurant-table">
 
-<table>
-    <tr>
-      <th>Restaurant</th>
-      <th>Cusine</th>
-      <th>Best Dish</th>
-    </tr>
-    <tr>
-      <td>Melrose Grill</td>
-      <td>Steaks</td>
-      <td>Ribeye</td>
-    </tr>
-    <tr>
-      <td>Asadero Sinaloa</td>
-      <td>Mexican</td>
-      <td>Carne Asada</td>
-    </tr>
-    <tr>
-      <td>Paseo's</td>
-      <td>Cuban</td>
-      <td>Paseo Press</td>
-    </tr>
-    <tr>
-      <td>Talerico</td>
-      <td>Pizza</td>
-      <td>Sinatra</td>
-    </tr>
-    <tr>
-      <td>My Kitchen</td>
-      <td>Everything</td>
-      <td>Flat Iron Steak with Chimichurri</td>
-    </tr>
+      <table>
+            <tr>
+              <th>Restaurant</th>
+              <th>Cusine</th>
+              <th>Best Dish</th>
+            </tr>
+            <tr>
+              <td>Melrose Grill</td>
+              <td>Steaks</td>
+              <td>Ribeye</td>
+            </tr>
+            <tr>
+              <td>Asadero Sinaloa</td>
+              <td>Mexican</td>
+              <td>Carne Asada</td>
+            </tr>
+            <tr>
+              <td>Paseo's</td>
+              <td>Cuban</td>
+              <td>Paseo Press</td>
+            </tr>
+            <tr>
+              <td>Talerico</td>
+              <td>Pizza</td>
+              <td>Sinatra</td>
+            </tr>
+            <tr>
+              <td>My Kitchen</td>
+              <td>Everything</td>
+              <td>Flat Iron Steak with Chimichurri</td>
+            </tr>
+
+      </table>
+    </div>
+    <div id="contact_us">
+      <p>Contact us:</p>
+      <form>
+        <p>Name</p>
+          <input type="text" name="Name">
+        <p>Email</p>
+          <input type="text" name="Email">
+        <p>Comments</p>
+          <textarea rows="4" cols="50" name="comment">Insert comments</textarea>
+
+      </form>
+      <button>Submit</button>
+    </div>
 
 
-</table>
-<p>Contact us:</p>
-    <form>
-      <p>name</p>
-      <input type="text" name="Name">
-      <p>email</p>
-      <input type="text" name="Email">
-      <p>comments</p>
-      <textarea rows="4" cols="50" name="comment">Insert comments</textarea>
+    <div id="footer">
 
-    </form>
+          <div id="copyright">&copy; Eating is fun</div>
+
+          <div id="social-links">
+
+              <a href="http://facebook.com">Facebook</a>
+
+              <a href="http://twitter.com">Twitter</a>
+
+          </div>
   </body>
 </html>
